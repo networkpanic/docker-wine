@@ -1,0 +1,10 @@
+version: '2'
+services:
+  wine:
+    build: 
+      context: .
+    ports:
+      - "26001:26001/udp"
+    volumes:
+      - ./game/somegame:/home/wine/gameserver
+    entrypoint: wine64 /home/wine/gameserver/somegameserver
