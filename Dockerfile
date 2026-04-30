@@ -1,4 +1,4 @@
-FROM ubuntu:20.10
+FROM ubuntu:26.04
 
 # Build-time metadata as defined at http://label-schema.org
 
